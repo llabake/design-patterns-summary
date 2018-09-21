@@ -11,6 +11,6 @@ class ReportGenerator
       result = data.to_json
     end
 
-    puts result
+    result
   end
 end
