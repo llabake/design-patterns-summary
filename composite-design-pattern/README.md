@@ -29,4 +29,4 @@ The `Composite` class is usually the higher level class. The `Composite` class i
 The error that crops up so frequently with the Composite pattern is assuming that the tree is only one level deep i.e. assuming that all of the child components of a composite object are, in fact, leaf objects and not other composites.
 
 ##### Uses of Composite Pattern
-Most GUI Interfaces makes use of this pattern. They support use of different components to build up the main object or application. Each of these component have an underlying similarity i.e `background-color`, `font-size`, `foreground-color`, `width`, `height` etc
+Most GUI Interfaces makes use of this pattern. They support use of different components to build up the main object or application. Each of these component have an underlying similarity i.e `background-color`, `font-size`, `foreground-color`, `width`, `height` etc.
