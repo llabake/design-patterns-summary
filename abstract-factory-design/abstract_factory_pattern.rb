@@ -130,10 +130,10 @@ class Habitat
   end
 
   def simulate_one_day
-    @plants.each {|plant| plant.grow}
-    @animals.each {|animal| animal.speak}
-    @animals.each {|animal| animal.eat}
-    @animals.each {|animal| animal.sleep}
+    @plants.each(&:grow)
+    @animals.each(&:speak)
+    @animals.each(&:eat)
+    @animals.each(&:sleep)
   end
 end
 
